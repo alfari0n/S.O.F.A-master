@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05227FC71F1EB36B004DD609 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05227FC61F1EB36B004DD609 /* DetailViewController.swift */; };
+		052D0E3F1F18FA2B000D9881 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D0E3E1F18FA2B000D9881 /* AppDelegate.swift */; };
+		052D0E441F18FA2B000D9881 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052D0E421F18FA2B000D9881 /* Main.storyboard */; };
+		052D0E491F18FA2B000D9881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052D0E471F18FA2B000D9881 /* LaunchScreen.storyboard */; };
+		052D0E541F18FA2B000D9881 /* sofa_applicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D0E531F18FA2B000D9881 /* sofa_applicationTests.swift */; };
+		052D0E5F1F18FA2B000D9881 /* sofa_applicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D0E5E1F18FA2B000D9881 /* sofa_applicationUITests.swift */; };
+		053C02CA1F1E542300CEE8F4 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 053C02C91F1E542300CEE8F4 /* Podfile */; };
+		053C02CC1F1E54FC00CEE8F4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053C02CB1F1E54FC00CEE8F4 /* MainViewController.swift */; };
+		053C02CE1F1E672A00CEE8F4 /* Steps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053C02CD1F1E672A00CEE8F4 /* Steps.swift */; };
+		053C02D01F1E6B7900CEE8F4 /* CarouselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053C02CF1F1E6B7900CEE8F4 /* CarouselCollectionViewCell.swift */; };
+		0547B0DD1F5872F500CB532B /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0547B0DC1F5872F500CB532B /* SubViewController.swift */; };
+		057C341B1F631C6F00030052 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057C341A1F631C6F00030052 /* SplashViewController.swift */; };
+		0580D5141F26388F00801EFF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0580D5131F26388F00801EFF /* MapViewController.swift */; };
+		05881CC81F459CF000ED46F7 /* CurvedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05881CC71F459CF000ED46F7 /* CurvedView.swift */; };
+		059BBCC11FB61FE500AD85C8 /* LNZSnapToCenterCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059BBCBE1FB61FE400AD85C8 /* LNZSnapToCenterCollectionViewLayout.swift */; };
+		059BBCC21FB61FE500AD85C8 /* LNZInfiniteCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059BBCBF1FB61FE400AD85C8 /* LNZInfiniteCollectionViewLayout.swift */; };
+		059BBCC31FB61FE500AD85C8 /* LNZCarouselCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059BBCC01FB61FE400AD85C8 /* LNZCarouselCollectionViewLayout.swift */; };
+		05AAD23B1FDB369B00C7BFC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05AAD23A1FDB369B00C7BFC5 /* Assets.xcassets */; };
+		05AAD23D1FDCAA6C00C7BFC5 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AAD23C1FDCAA6B00C7BFC5 /* Protocol.swift */; };
+		05DADFB71F5884DF00181A7C /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DADFB61F5884DF00181A7C /* Modal.swift */; };
+		05DADFBB1F5C8B9600181A7C /* Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DADFBA1F5C8B9600181A7C /* Parsing.swift */; };
+		264712C97E84B91F336FA7F0 /* Pods_sofa_application.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513E3CC8B3472BC9B77C1625 /* Pods_sofa_application.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		052D0E501F18FA2B000D9881 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 052D0E331F18FA2B000D9881 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 052D0E3A1F18FA2B000D9881;
+			remoteInfo = sofa_application;
+		};
+		052D0E5B1F18FA2B000D9881 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 052D0E331F18FA2B000D9881 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 052D0E3A1F18FA2B000D9881;
+			remoteInfo = sofa_application;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05227FC61F1EB36B004DD609 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		052D0E3B1F18FA2B000D9881 /* sofa_application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sofa_application.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		052D0E3E1F18FA2B000D9881 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		052D0E431F18FA2B000D9881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		052D0E481F18FA2B000D9881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		052D0E4F1F18FA2B000D9881 /* sofa_applicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sofa_applicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		052D0E531F18FA2B000D9881 /* sofa_applicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sofa_applicationTests.swift; sourceTree = "<group>"; };
+		052D0E551F18FA2B000D9881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		052D0E5A1F18FA2B000D9881 /* sofa_applicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sofa_applicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		052D0E5E1F18FA2B000D9881 /* sofa_applicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sofa_applicationUITests.swift; sourceTree = "<group>"; };
+		052D0E601F18FA2B000D9881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		053C02C91F1E542300CEE8F4 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		053C02CB1F1E54FC00CEE8F4 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		053C02CD1F1E672A00CEE8F4 /* Steps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Steps.swift; sourceTree = "<group>"; };
+		053C02CF1F1E6B7900CEE8F4 /* CarouselCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselCollectionViewCell.swift; sourceTree = "<group>"; };
+		0547B0DC1F5872F500CB532B /* SubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
+		057C34181F5E9E2500030052 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		057C341A1F631C6F00030052 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		0580D5131F26388F00801EFF /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		05881CC71F459CF000ED46F7 /* CurvedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurvedView.swift; sourceTree = "<group>"; };
+		059BBCBE1FB61FE400AD85C8 /* LNZSnapToCenterCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LNZSnapToCenterCollectionViewLayout.swift; sourceTree = "<group>"; };
+		059BBCBF1FB61FE400AD85C8 /* LNZInfiniteCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LNZInfiniteCollectionViewLayout.swift; sourceTree = "<group>"; };
+		059BBCC01FB61FE400AD85C8 /* LNZCarouselCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LNZCarouselCollectionViewLayout.swift; sourceTree = "<group>"; };
+		05AAD23A1FDB369B00C7BFC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../S.O.F.A-master 2/sofa_application/Assets.xcassets"; sourceTree = "<group>"; };
+		05AAD23C1FDCAA6B00C7BFC5 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		05DADFB61F5884DF00181A7C /* Modal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
+		05DADFBA1F5C8B9600181A7C /* Parsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parsing.swift; sourceTree = "<group>"; };
+		513E3CC8B3472BC9B77C1625 /* Pods_sofa_application.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sofa_application.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87DA7491F2DF114F033484A4 /* Pods-sofa_application.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sofa_application.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sofa_application/Pods-sofa_application.debug.xcconfig"; sourceTree = "<group>"; };
+		AC59030C83E206B516F9DCD9 /* Pods-sofa_application.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sofa_application.release.xcconfig"; path = "Pods/Target Support Files/Pods-sofa_application/Pods-sofa_application.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		052D0E381F18FA2B000D9881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264712C97E84B91F336FA7F0 /* Pods_sofa_application.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052D0E4C1F18FA2B000D9881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052D0E571F18FA2B000D9881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		052D0E321F18FA2B000D9881 = {
+			isa = PBXGroup;
+			children = (
+				053C02C91F1E542300CEE8F4 /* Podfile */,
+				052D0E3D1F18FA2B000D9881 /* sofa_application */,
+				052D0E521F18FA2B000D9881 /* sofa_applicationTests */,
+				052D0E5D1F18FA2B000D9881 /* sofa_applicationUITests */,
+				052D0E3C1F18FA2B000D9881 /* Products */,
+				EFAE9C0D7A8AD47315887364 /* Pods */,
+				91DC8027962F194A90ECF75B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		052D0E3C1F18FA2B000D9881 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				052D0E3B1F18FA2B000D9881 /* sofa_application.app */,
+				052D0E4F1F18FA2B000D9881 /* sofa_applicationTests.xctest */,
+				052D0E5A1F18FA2B000D9881 /* sofa_applicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		052D0E3D1F18FA2B000D9881 /* sofa_application */ = {
+			isa = PBXGroup;
+			children = (
+				059BBCBC1FB61F8300AD85C8 /* Layouts */,
+				052D0E3E1F18FA2B000D9881 /* AppDelegate.swift */,
+				05AAD23C1FDCAA6B00C7BFC5 /* Protocol.swift */,
+				053C02CB1F1E54FC00CEE8F4 /* MainViewController.swift */,
+				05881CC71F459CF000ED46F7 /* CurvedView.swift */,
+				053C02CD1F1E672A00CEE8F4 /* Steps.swift */,
+				053C02CF1F1E6B7900CEE8F4 /* CarouselCollectionViewCell.swift */,
+				05227FC61F1EB36B004DD609 /* DetailViewController.swift */,
+				0580D5131F26388F00801EFF /* MapViewController.swift */,
+				0547B0DC1F5872F500CB532B /* SubViewController.swift */,
+				05DADFBA1F5C8B9600181A7C /* Parsing.swift */,
+				05DADFB61F5884DF00181A7C /* Modal.swift */,
+				057C341A1F631C6F00030052 /* SplashViewController.swift */,
+				05AAD23A1FDB369B00C7BFC5 /* Assets.xcassets */,
+				052D0E421F18FA2B000D9881 /* Main.storyboard */,
+				057C34181F5E9E2500030052 /* Info.plist */,
+				052D0E471F18FA2B000D9881 /* LaunchScreen.storyboard */,
+			);
+			path = sofa_application;
+			sourceTree = "<group>";
+		};
+		052D0E521F18FA2B000D9881 /* sofa_applicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				052D0E531F18FA2B000D9881 /* sofa_applicationTests.swift */,
+				052D0E551F18FA2B000D9881 /* Info.plist */,
+			);
+			path = sofa_applicationTests;
+			sourceTree = "<group>";
+		};
+		052D0E5D1F18FA2B000D9881 /* sofa_applicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				052D0E5E1F18FA2B000D9881 /* sofa_applicationUITests.swift */,
+				052D0E601F18FA2B000D9881 /* Info.plist */,
+			);
+			path = sofa_applicationUITests;
+			sourceTree = "<group>";
+		};
+		059BBCBC1FB61F8300AD85C8 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				059BBCC01FB61FE400AD85C8 /* LNZCarouselCollectionViewLayout.swift */,
+				059BBCBF1FB61FE400AD85C8 /* LNZInfiniteCollectionViewLayout.swift */,
+				059BBCBE1FB61FE400AD85C8 /* LNZSnapToCenterCollectionViewLayout.swift */,
+			);
+			name = Layouts;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		91DC8027962F194A90ECF75B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				513E3CC8B3472BC9B77C1625 /* Pods_sofa_application.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFAE9C0D7A8AD47315887364 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87DA7491F2DF114F033484A4 /* Pods-sofa_application.debug.xcconfig */,
+				AC59030C83E206B516F9DCD9 /* Pods-sofa_application.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		052D0E3A1F18FA2B000D9881 /* sofa_application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 052D0E631F18FA2B000D9881 /* Build configuration list for PBXNativeTarget "sofa_application" */;
+			buildPhases = (
+				A9DC94DC7D1B10A328E4831A /* [CP] Check Pods Manifest.lock */,
+				052D0E371F18FA2B000D9881 /* Sources */,
+				052D0E381F18FA2B000D9881 /* Frameworks */,
+				052D0E391F18FA2B000D9881 /* Resources */,
+				3FF6BFD9EB713671563CF400 /* [CP] Embed Pods Frameworks */,
+				3177E94DBA6A5AFDC60B66DF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sofa_application;
+			productName = sofa_application;
+			productReference = 052D0E3B1F18FA2B000D9881 /* sofa_application.app */;
+			productType = "com.apple.product-type.application";
+		};
+		052D0E4E1F18FA2B000D9881 /* sofa_applicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 052D0E661F18FA2B000D9881 /* Build configuration list for PBXNativeTarget "sofa_applicationTests" */;
+			buildPhases = (
+				052D0E4B1F18FA2B000D9881 /* Sources */,
+				052D0E4C1F18FA2B000D9881 /* Frameworks */,
+				052D0E4D1F18FA2B000D9881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				052D0E511F18FA2B000D9881 /* PBXTargetDependency */,
+			);
+			name = sofa_applicationTests;
+			productName = sofa_applicationTests;
+			productReference = 052D0E4F1F18FA2B000D9881 /* sofa_applicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		052D0E591F18FA2B000D9881 /* sofa_applicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 052D0E691F18FA2B000D9881 /* Build configuration list for PBXNativeTarget "sofa_applicationUITests" */;
+			buildPhases = (
+				052D0E561F18FA2B000D9881 /* Sources */,
+				052D0E571F18FA2B000D9881 /* Frameworks */,
+				052D0E581F18FA2B000D9881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				052D0E5C1F18FA2B000D9881 /* PBXTargetDependency */,
+			);
+			name = sofa_applicationUITests;
+			productName = sofa_applicationUITests;
+			productReference = 052D0E5A1F18FA2B000D9881 /* sofa_applicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		052D0E331F18FA2B000D9881 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Kirill Milititskiy";
+				TargetAttributes = {
+					052D0E3A1F18FA2B000D9881 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8C8TL34XQ3;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					052D0E4E1F18FA2B000D9881 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 052D0E3A1F18FA2B000D9881;
+					};
+					052D0E591F18FA2B000D9881 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 052D0E3A1F18FA2B000D9881;
+					};
+				};
+			};
+			buildConfigurationList = 052D0E361F18FA2B000D9881 /* Build configuration list for PBXProject "sofa_application" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 052D0E321F18FA2B000D9881;
+			productRefGroup = 052D0E3C1F18FA2B000D9881 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				052D0E3A1F18FA2B000D9881 /* sofa_application */,
+				052D0E4E1F18FA2B000D9881 /* sofa_applicationTests */,
+				052D0E591F18FA2B000D9881 /* sofa_applicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		052D0E391F18FA2B000D9881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052D0E491F18FA2B000D9881 /* LaunchScreen.storyboard in Resources */,
+				053C02CA1F1E542300CEE8F4 /* Podfile in Resources */,
+				05AAD23B1FDB369B00C7BFC5 /* Assets.xcassets in Resources */,
+				052D0E441F18FA2B000D9881 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052D0E4D1F18FA2B000D9881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052D0E581F18FA2B000D9881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3177E94DBA6A5AFDC60B66DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-sofa_application/Pods-sofa_application-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sofa_application/Pods-sofa_application-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FF6BFD9EB713671563CF400 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-sofa_application/Pods-sofa_application-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AnimatedDropdownMenu/AnimatedDropdownMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/UIColor_Hex_Swift/UIColor_Hex_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/UPCarouselFlowLayout/UPCarouselFlowLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/YNDropDownMenu/YNDropDownMenu.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AnimatedDropdownMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIColor_Hex_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UPCarouselFlowLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YNDropDownMenu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sofa_application/Pods-sofa_application-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9DC94DC7D1B10A328E4831A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sofa_application-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		052D0E371F18FA2B000D9881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DADFB71F5884DF00181A7C /* Modal.swift in Sources */,
+				053C02D01F1E6B7900CEE8F4 /* CarouselCollectionViewCell.swift in Sources */,
+				059BBCC21FB61FE500AD85C8 /* LNZInfiniteCollectionViewLayout.swift in Sources */,
+				057C341B1F631C6F00030052 /* SplashViewController.swift in Sources */,
+				0580D5141F26388F00801EFF /* MapViewController.swift in Sources */,
+				059BBCC31FB61FE500AD85C8 /* LNZCarouselCollectionViewLayout.swift in Sources */,
+				053C02CC1F1E54FC00CEE8F4 /* MainViewController.swift in Sources */,
+				05227FC71F1EB36B004DD609 /* DetailViewController.swift in Sources */,
+				053C02CE1F1E672A00CEE8F4 /* Steps.swift in Sources */,
+				05DADFBB1F5C8B9600181A7C /* Parsing.swift in Sources */,
+				0547B0DD1F5872F500CB532B /* SubViewController.swift in Sources */,
+				052D0E3F1F18FA2B000D9881 /* AppDelegate.swift in Sources */,
+				05AAD23D1FDCAA6C00C7BFC5 /* Protocol.swift in Sources */,
+				05881CC81F459CF000ED46F7 /* CurvedView.swift in Sources */,
+				059BBCC11FB61FE500AD85C8 /* LNZSnapToCenterCollectionViewLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052D0E4B1F18FA2B000D9881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052D0E541F18FA2B000D9881 /* sofa_applicationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052D0E561F18FA2B000D9881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052D0E5F1F18FA2B000D9881 /* sofa_applicationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		052D0E511F18FA2B000D9881 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 052D0E3A1F18FA2B000D9881 /* sofa_application */;
+			targetProxy = 052D0E501F18FA2B000D9881 /* PBXContainerItemProxy */;
+		};
+		052D0E5C1F18FA2B000D9881 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 052D0E3A1F18FA2B000D9881 /* sofa_application */;
+			targetProxy = 052D0E5B1F18FA2B000D9881 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		052D0E421F18FA2B000D9881 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				052D0E431F18FA2B000D9881 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		052D0E471F18FA2B000D9881 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				052D0E481F18FA2B000D9881 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		052D0E611F18FA2B000D9881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		052D0E621F18FA2B000D9881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		052D0E641F18FA2B000D9881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87DA7491F2DF114F033484A4 /* Pods-sofa_application.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 8C8TL34XQ3;
+				INFOPLIST_FILE = sofa_application/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sofa.beta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		052D0E651F18FA2B000D9881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC59030C83E206B516F9DCD9 /* Pods-sofa_application.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 8C8TL34XQ3;
+				INFOPLIST_FILE = sofa_application/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sofa.beta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		052D0E671F18FA2B000D9881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sofa_applicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miles.sofa-applicationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sofa_application.app/sofa_application";
+			};
+			name = Debug;
+		};
+		052D0E681F18FA2B000D9881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sofa_applicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miles.sofa-applicationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sofa_application.app/sofa_application";
+			};
+			name = Release;
+		};
+		052D0E6A1F18FA2B000D9881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = sofa_applicationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miles.sofa-applicationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = sofa_application;
+			};
+			name = Debug;
+		};
+		052D0E6B1F18FA2B000D9881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = sofa_applicationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miles.sofa-applicationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = sofa_application;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		052D0E361F18FA2B000D9881 /* Build configuration list for PBXProject "sofa_application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052D0E611F18FA2B000D9881 /* Debug */,
+				052D0E621F18FA2B000D9881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		052D0E631F18FA2B000D9881 /* Build configuration list for PBXNativeTarget "sofa_application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052D0E641F18FA2B000D9881 /* Debug */,
+				052D0E651F18FA2B000D9881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		052D0E661F18FA2B000D9881 /* Build configuration list for PBXNativeTarget "sofa_applicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052D0E671F18FA2B000D9881 /* Debug */,
+				052D0E681F18FA2B000D9881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		052D0E691F18FA2B000D9881 /* Build configuration list for PBXNativeTarget "sofa_applicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052D0E6A1F18FA2B000D9881 /* Debug */,
+				052D0E6B1F18FA2B000D9881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 052D0E331F18FA2B000D9881 /* Project object */;
+}
